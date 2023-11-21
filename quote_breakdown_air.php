@@ -212,7 +212,6 @@ $odm_desti_a_s_b = $row_codm['odm_desti_a_s_b'];
 																country_id='$odm_orgin_country' AND city_id='$odm_orgin_city' AND airport_id='$odm_orgin_a_s_b' AND
 																country_id_dest='$odm_desti_country' AND city_id_dest='$odm_desti_city' AND airport_id_dest='$odm_desti_a_s_b' AND af_min_weight <= $charge_weight AND af_max_weight >= $charge_weight";
 							    $rs_data = $conn->query($sql_data);
-									$tot_air_charge
 							    if($rs_data->num_rows > 0){
 							      while($row_data= $rs_data->fetch_assoc()){
 							        $id=$row_data['af_id'];
