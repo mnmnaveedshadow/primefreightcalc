@@ -1,0 +1,58 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400&display=swap');
+h1,h2,h3,h4,h5,h6{
+font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.shipping-main-option{
+  transition: 0.3s;
+
+  border:1px solid #006351;
+  border-radius: 20px;
+
+  padding-top:10px;
+  padding-bottom:10px;
+
+  text-align:center;
+
+  font-size:18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight:bold;
+
+  background-color:#006351;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+
+  color:#fff;
+}
+
+.shipping-main-option-active{
+  transition: 0.3s;
+  background-color: transparent;
+  color:#006351;
+}
+.rate-card-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.rate-card-table th, .rate-card-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.rate-card-table th {
+    background-color: #f2f2f2;
+}
+
+.rate-card-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.rate-card-table tr:hover {
+    background-color: #ddd;
+}
